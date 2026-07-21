@@ -1,4 +1,12 @@
 🚀 Profile Management System - Backend
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?style=for-the-badge&logo=springboot)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.0-47A248?style=for-the-badge&logo=mongodb)
+![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-Image_Upload-3448C5?style=for-the-badge&logo=cloudinary)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=for-the-badge&logo=swagger)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven)
+
 
 Spring Boot REST API for a Full Stack Profile Management System with JWT Authentication, MongoDB, Cloudinary Image Upload, Swagger Documentation, and Secure CRUD Operations.
 
@@ -15,20 +23,19 @@ The application is built following modern Spring Boot development practices and 
 ⸻
 
 ✨ Features
-
-* JWT Authentication & Authorization
-* User Registration & Login
-* Secure REST APIs
-* Profile CRUD Operations
-* MongoDB Database Integration
-* Cloudinary Image Upload
-* Swagger API Documentation
-* Global Exception Handling
-* CORS Configuration
-* Password Encryption using BCrypt
-* Layered Architecture
-* Spring Security
-
+ 
+- Secure User Registration & Login
+- JWT Authentication & Authorization
+- BCrypt Password Encryption
+- CRUD Operations for Profiles
+- Image Upload using Cloudinary
+- MongoDB Database Integration
+- Global Exception Handling
+- RESTful API Design
+- Swagger/OpenAPI Documentation
+- Layered Architecture (Controller → Service → Repository)
+- CORS Configuration
+- Spring Security Integration
 ⸻
 
 🛠 Tech Stack
@@ -43,6 +50,21 @@ The application is built following modern Spring Boot development practices and 
 * Maven
 
 ⸻
+
+## 🏗️ Architecture
+
+```text
+React Frontend
+        │
+        ▼
+Spring Boot REST API
+        │
+ ┌──────┼─────────┐
+ │      │         │
+ ▼      ▼         ▼
+ JWT  Cloudinary MongoDB
+```
+
 
 📂 Project Structure
 
