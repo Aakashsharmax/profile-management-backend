@@ -155,9 +155,37 @@ mvn spring-boot:run
 
 ⸻
 
-📸 Screenshots
+---
 
-Coming Soon
+# 📸 Screenshots
+
+## 🔐 Login Page
+
+![Login Page](screenshots/login-page.png)
+
+---
+
+## 📋 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ➕ Add Profile
+
+![Add Profile](screenshots/add-profile.png)
+
+---
+
+## 📖 Swagger UI
+
+![Swagger UI](screenshots/swagger-ui.png)
+
+---
+
+## 🗄️ MongoDB Database
+
+![MongoDB](screenshots/mongodb.png)
 
 ⸻
 
